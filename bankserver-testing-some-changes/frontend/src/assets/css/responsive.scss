@@ -1,0 +1,90 @@
+/*--- Color ---*/
+$primary-color : #5A3553;
+$secondary-color : #7C616C;
+$tertiary-color : #ffffff;
+$text-color-one:  #000000;
+$text-color-two : #2c2d2f;
+
+/*--- Font Family ---*/
+$primary-font : 'raleway';
+$secondary-font : 'raleway';
+$tertiary-colo : serif;
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  .blog-sidebar .blog-popular li.blog-card-sm .blog-img-sm img {
+    max-width: 85px;
+    border-radius: 10px;
+}
+.blog-sidebar .blog-popular li.blog-card-sm .blog-details-sm a.blog-title-sm{
+  margin-bottom: 15px;
+}
+.blog-sidebar .blog-popular li.blog-card-sm .blog-details-sm .blog-info a {
+  font-size: 10px;
+}
+.organizer-card {
+  display: flex;
+  flex-direction: column;
+
+  .organizer-info{
+    margin-top: 20px;
+  }
+}
+
+.blog-card .blog-details a.blog-title {
+  margin: 28px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.topbar-area .topbar-contact ul li{
+  margin-right: 30px;
+}
+.blog-details .blog-title-xl h3 {
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.blog-gallary{
+  img{
+    margin-top: 20px;
+  }
+}
+
+.contact-card .contact-info{
+  h5{
+    font-size: 20px;
+  }
+  p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+.achievement-card h5 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.contact-card .contact-info ul.contact-icons li a i{
+  font-size: 20px;
+}
+
+.package-details .package-tab .nav-pills button.nav-link {
+  padding: 8px 25px;
+  font-size: 17px;
+
+  i{
+    font-size: 20px;
+  }
+}
+
+.package-slider-wrap .pakage-overlay strong {
+  font-size: 30px;
+}
+
+.package-card .package-details h3 {
+  font-size: 18px;
+  line-height: 24px;
+} 
+
+}
